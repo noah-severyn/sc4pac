@@ -1,0 +1,141 @@
+group: "nos17"
+name: "industrial-revolution-mod-cam-expansions-and-addons"
+version: "1.1"
+subfolder: "400-industrial"
+info:
+  summary: "Alters the IRM Expansions & Addons to be compatible with CAM"
+  description: |
+    This package contains a version of T Wrecks's Industrial Revolution Mod (IRM) Expansions and Addons which are designed to work with the Colossus Addon Mod (CAM), and is specifically designed to be used alongside the `shadowstrike:industrial-revolution-mod-cam` package.
+
+    Two versions are included: version A preserves T Wrecks' distribution of I-M lots between medium-density and high-density industrial zones, on the basis of appearance, and version B which allocates all the I-HT lots to the high-density industrial zones and all the I-M (as well as the I-D) lots to the medium-density industrial zones. This will be automatically installed depending on your chosen preferences when installing `shadowstrike:industrial-revolution-mod-cam`.
+    
+  author: "nos.17, rsc204, T Wrecks"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_12/IRM_CAM_TitleImage.png.fb816e05139040203d7d2b23feba4d0c.png"
+  website: "https://community.simtropolis.com/files/file/35792-irm-expansions-and-addons-cam-edition/"
+dependencies:
+- shadowstrike:industrial-revolution-mod-cam
+- bsc:mega-props-jes-vol06
+- bsc:mega-props-jmyers-common-props
+- bsc:mega-props-gascooker-vol02
+- bsc:mega-props-t1-vol03	
+- bsc:mega-props-t1-vol04
+- bsc:sg-models-iht
+- bsc:sg-models-im1
+- bsc:sg-models-im2
+- bsc:mega-props-misc-vol01
+#Plus these which are already required in shadowstrike:irm-cam
+#- "bsc:mega-props-jes-vol02"
+#- "bsc:mega-props-jes-vol03"
+#- "bsc:mega-props-jes-vol05"
+#- "bsc:mega-props-jes-vol08"
+
+
+variants:
+# IRM CAM version variant
+- variant:
+    irm-cam-option: "a-original"
+  assets:
+  - assetId: "nos17-irm-expansions-and-addons-cam-version-a"
+- variant:
+    irm-cam-option: "b-modified"
+  assets:
+  - assetId: "nos17-irm-expansions-and-addons-cam-version-b"
+# Nightmode variant
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: bsp-standard-forge-co-maxis-night
+    include:
+    - \\.SC4Model$
+- variant: { nightmode: "dark" }
+  dependencies:
+  - "simfox:day-and-nite-mod"
+  assets:
+  - assetId: bsp-standard-forge-co-dark-night
+  include:
+    - \\.SC4Model$
+
+
+assets:
+- assetId: bsp:john-king-books
+  include:
+  - \\.SC4Model$
+- assetId: bsp:allmendinger-organ-co
+  include:
+  - \\.SC4Model$
+- assetId: bsp:detroit-elevator-company
+  include:
+  - \\.SC4Model$
+- assetId: bsp:gleaners-community-food-bank
+  include:
+  - \\.SC4Model$
+- assetId: bsp:miller-street-manufacturing
+  include:
+  - \\.SC4Model$
+- assetId: bsp:production-steel-products-inc
+  include:
+  - \\.SC4Model$
+- assetId: bsp:aluminum-architectural-metals-company
+  include:
+  - \\.SC4Model$
+
+
+
+
+variantDescriptions:
+  irm-cam-option:
+    a-original: "Original distribution of I-M between medium and high density zones
+    b-modified: "Allocates all I-HT to high density zones and all I-M and I-D to medium density zones"
+
+
+
+
+
+
+---
+url: "https://community.simtropolis.com/files/file/35792-irm-expansions-and-addons-cam-edition/?do=download&r=198614"
+assetId: "nos17-irm-expansions-and-addons-cam-version-a"
+version: "1.1"
+lastModified: "2023-12-10T23:46Z"
+
+---
+url: "https://community.simtropolis.com/files/file/35792-irm-expansions-and-addons-cam-edition/?do=download&r=198615"
+assetId: "nos17-irm-expansions-and-addons-cam-version-b"
+version: "1.1"
+lastModified: "2023-12-10T23:46Z"
+
+
+https://community.simtropolis.com/files/file/25451-gaulargaten-15-w2w-industrial/
+https://community.simtropolis.com/files/file/22339-chalmers-auto-supply/
+https://community.simtropolis.com/files/file/20361-dk1-small-industrial/
+https://github.com/memo33/sc4pac/blob/242da8c8a2b73dd203ab61cdc334271dd541e26e/src/yaml/mattb325/industrial-collection.yaml#L13
+
+
+https://github.com/memo33/sc4pac/blob/242da8c8a2b73dd203ab61cdc334271dd541e26e/src/yaml/mattb325/industrial-collection.yaml#L474
+https://community.simtropolis.com/files/file/24380-oddbats-previously-unreleased-bats-from-the-user-odd-from-sweden-with-full-permission/
+https://community.simtropolis.com/files/file/28537-todds-packaging-plant/
+https://community.simtropolis.com/files/file/27208-nybt-abbt-manhattanville-project-1st-pack/
+https://community.simtropolis.com/files/file/27210-nybt-abbt-manhattanville-project-2nd-pack/
+https://community.simtropolis.com/files/file/28410-nybt-abbt-manhattanville-project-3rd-pack/
+https://community.simtropolis.com/files/file/27209-nybt-abbt-the-studebaker-building/
+https://community.simtropolis.com/files/file/31743-irm-expansion-blocker-v10/
+http://www.simcityplaza.de/index.php/whi-gebaeude/industrie?download=186:sfbt-hochenthalpie-windkanal-von-mathe-man
+http://www.simcityplaza.de/index.php/whi-gebaeude/industrie?download=538:sfbt-h2o-chemie-von-mathe-man&start=10
+http://www.simcityplaza.de/index.php/whi-gebaeude/industrie?download=184:sfbt-maschinenbau-klemmt-&-soehne-von-mathe-man
+https://community.simtropolis.com/files/file/2636-skylimit-satelite-research/
+https://community.simtropolis.com/files/file/4029-semiintelligent-components/
+
+https://community.simtropolis.com/files/file/27565-linda-swampy-medical-centre/
+https://community.simtropolis.com/files/file/25895-thermofisher-scientific-darknite/
+https://community.simtropolis.com/files/file/28714-hammer-data-security/
+https://community.simtropolis.com/files/file/28181-lavaughn-biotech/
+https://community.simtropolis.com/files/file/21844-ouellette-electronics/
+
+https://github.com/memo33/sc4pac/blob/242da8c8a2b73dd203ab61cdc334271dd541e26e/src/yaml/mattb325/industrial-collection.yaml#L146
+https://github.com/memo33/sc4pac/blob/242da8c8a2b73dd203ab61cdc334271dd541e26e/src/yaml/mattb325/industrial-collection.yaml#L271
+https://community.simtropolis.com/files/file/20277-bakery/
+https://community.simtropolis.com/files/file/20480-effectimed/
+https://community.simtropolis.com/files/file/20152-ohm-resistors/
+https://community.simtropolis.com/files/file/20173-nova-energetics/
+https://community.simtropolis.com/files/file/20604-quetz-isoprenes-co/
+https://community.simtropolis.com/files/file/27035-dk1-peterson-tool/
