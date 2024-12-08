@@ -1,0 +1,37 @@
+group: bsp
+name: standard-forge-co
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: BSP Standard Forge Co. (dark night)
+  description: |-
+    Located on the corner of Franklin and St. Aubin Street in Detroit's Rivertown district, the Standard Forge Co. building was expanded in a series of additions. It is just another average workshop that was common in the area and most other turn of the century industrial districts.
+
+    This package includes two 5x2 IM$$ lots (one ploppable and one growable), and one 5x3 I-M growable lot.
+  author: SimHoTToDDy, Nofunk, Jasoncw
+  website: https://community.simtropolis.com/files/file/25356-bsp-standard-forge-co-dark-night/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/1ea51aa2a08e0603ae971cc95cd66b54-SFc_STEX_01.jpg
+    - https://www.simtropolis.com/objects/screens/0004/1ea51aa2a08e0603ae971cc95cd66b54-SFc_STEX_03d.jpg
+    - https://www.simtropolis.com/objects/screens/0019/a87e19f52f8bd050e4cefab3fa352721-SFc_STEX_02m.jpg
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: bsp-standard-forge-co-maxis-night
+- variant: { nightmode: "dark" }
+  dependencies:
+  - "simfox:day-and-nite-mod"
+  assets:
+  - assetId: bsp-standard-forge-co-dark-night
+
+---
+assetId: bsp-standard-forge-co-dark-night
+version: "1.0"
+lastModified: "2010-11-24T21:13:17Z"
+url: https://community.simtropolis.com/files/file/25356-bsp-standard-forge-co-dark-night/?do=download
+
+---
+assetId: bsp-standard-forge-co-maxis-night
+version: "1.0"
+lastModified: "2010-11-24T21:08:57Z"
+url: https://community.simtropolis.com/files/file/25354-bsp-standard-forge-co-maxis-night/?do=download

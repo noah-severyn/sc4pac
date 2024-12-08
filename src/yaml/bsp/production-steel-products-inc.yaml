@@ -1,0 +1,40 @@
+group: bsp
+name: production-steel-products-inc
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: BSP Production Steel Products Inc.
+  description: |-
+    Production Steel is a  warehouse located on Beaufait street in Detroit, but is only one of many similar buildings across the area and is typical most other American cities as well.
+
+    There are five versions available: One landmark and two I-M growable and plopable for normal jobs and for use with the Industry Quadrupler. Is lit with Trunite. All lots are 6x2.
+  author: SimHoTToDDy, Jasoncw, Nofunk
+  website: https://community.simtropolis.com/files/file/22595-bsp-production-steel-products-inc/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/a160cd5d9262181a0daaaf14fdc36da3-ProductionSteel01.jpg
+    - https://www.simtropolis.com/objects/screens/0018/a160cd5d9262181a0daaaf14fdc36da3-ProductionSteel02.jpg
+variants:
+- variant: { irm.industrial-capacity: "standard" }
+  assets:
+  - assetId: bsp-miller-street-manufacturing
+    exclude:
+    - /I-m Growable X4/
+    - /I-m Ploppable X4/
+- variant: { irm.industrial-capacity: "quadrupled" }
+  dependencies:
+  - toroca:industry-quadrupler
+  assets:
+  - assetId: bsp-miller-street-manufacturing
+    exclude:
+    - /I-m Growable/
+    - /I-m Ploppable/
+variantDescriptions:
+  irm.industrial-capacity:
+    "standard": "Maxis-default capacity"
+    "quadrupled": "4x capacity for Maxis industrial buildings"
+
+---
+assetId: bsp-production-steel-products-inc
+version: "1.0"
+lastModified: "2009-10-03T16:02:50Z"
+url: https://community.simtropolis.com/files/file/22595-bsp-production-steel-products-inc/?do=download

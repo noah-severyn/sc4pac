@@ -1,0 +1,23 @@
+group: bsp
+name: allmendinger-organ-co
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: BSP Allmendinger Organ Co
+  description: |-
+    The Allmendinger Organ Company was founded in 1872 by David F. Allmendinger. Standing at the corner of Washington and First Streets in Ann Arbor, Michigan, the present structure was built in four phases between 1895 and 1911. At its height, the factory produced 5,000 organs and 600 pianos a year. The building still stands and is now known as the Benz Building. This is a faithful re-creation of the actual building.
+
+    This building contains two versions: a light brick model and a dark brick model. Both may be used; each color version contains: a ploppable landmark, a ploppable functional CS§§§, a growable CS§§§, a growable R§§ (which will grow as the "Benz Building"), and a growable I-M. All lots are 3x2.
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/17850-bsp-allmendinger-organ-co/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/c22fd68770eb7ed0f20fbced4b574d2a-bsp_allmendinger_organs1.jpg
+    - https://www.simtropolis.com/objects/screens/0021/c22fd68770eb7ed0f20fbced4b574d2a-bsp_allmendinger_organs2.jpg
+assets:
+  - assetId: bsp-allmendinger-organ-co
+
+---
+assetId: bsp-allmendinger-organ-co
+version: "1.0"
+lastModified: "2007-03-05T22:31:10Z"
+url: https://community.simtropolis.com/files/file/17850-bsp-allmendinger-organ-co/?do=download

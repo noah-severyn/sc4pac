@@ -1,0 +1,40 @@
+group: bsp
+name: gleaners-community-food-bank
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: BSP Gleaners Community Food Bank
+  description: |-
+    For more than 32 years, Gleaners Community Food Bank has been "nourishing communities by feeding hungry people.” Last year, Gleaners distributed more than 30 million pounds of emergency food to over 430 partner soup kitchens, shelters and pantries in south east Michigan.
+
+    There are four versions available: two I-M growable lots and two I-M ploppable lots for normal jobs and for use with the Industry Quadrupler. All lots are 7x3 and are W2W on both sides.
+  author: SimHoTToDDy, Jasoncw, Nofunk
+  website: https://community.simtropolis.com/files/file/23431-bsp-gleaners-community-food-bank/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/afbbab01654809af0edbf13d5fdb1c1d-STEX_04.jpg
+    - https://www.simtropolis.com/objects/screens/0019/afbbab01654809af0edbf13d5fdb1c1d-STEX_03.jpg
+variants:
+- variant: { irm.industrial-capacity: "standard" }
+  assets:
+  - assetId: bsp-gleaners-community-food-bank
+    exclude:
+    - "/I-m Grow X4/"
+    - "/I-m Plop X4/"
+- variant: { irm.industrial-capacity: "quadrupled" }
+  dependencies:
+  - toroca:industry-quadrupler
+  assets:
+  - assetId: bsp-gleaners-community-food-bank
+    exclude:
+    - "/I-m Grow/"
+    - "/I-m Plop/"
+variantDescriptions:
+  irm.industrial-capacity:
+    "standard": "Maxis-default capacity"
+    "quadrupled": "4x capacity for Maxis industrial buildings"
+
+---
+assetId: bsp-gleaners-community-food-bank
+version: "1.0"
+lastModified: "2010-02-26T19:59:04Z"
+url: https://community.simtropolis.com/files/file/23431-bsp-gleaners-community-food-bank/?do=download

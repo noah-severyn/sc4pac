@@ -1,0 +1,38 @@
+group: bsp
+name: aluminum-architectural-metals-company
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: BSP Aluminum Architectural Metals Company
+  description: |-
+    The Aluminum Architectural Metals Company is a warehouse located on Franklin street in Rivertown area of Detroit. There are four versions available: Two ploppable and growable I-M lots, two with maxis job levels, two with x4 Capacity. Rendered with Trunite.
+  author: SimHoTToDDy, Nofunk
+  website: https://community.simtropolis.com/files/file/23353-bsp-aluminum-architectural-metals-company/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/66b6ecbe9389f93d0fe94c4c1f064e4d-STEX_01.jpg
+    - https://www.simtropolis.com/objects/screens/0012/66b6ecbe9389f93d0fe94c4c1f064e4d-STEX_02.jpg
+variants:
+- variant: { irm.industrial-capacity: "standard" }
+  assets:
+  - assetId: bsp-aluminum-architectural-metals-company
+    exclude:
+    - /I-m Grow X4/
+    - /I-m Plop X4/
+- variant: { irm.industrial-capacity: "quadrupled" }
+  dependencies:
+  - toroca:industry-quadrupler
+  assets:
+  - assetId: bsp-aluminum-architectural-metals-company
+    exclude:
+    - /I-m Grow/
+    - /I-m Plop/
+variantDescriptions:
+  irm.industrial-capacity:
+    "standard": "Maxis-default capacity"
+    "quadrupled": "4x capacity for Maxis industrial buildings"
+
+---
+assetId: bsp-aluminum-architectural-metals-company
+version: "1.0"
+lastModified: "2010-02-13T22:16:27Z"
+url: https://community.simtropolis.com/files/file/23353-bsp-aluminum-architectural-metals-company/?do=download

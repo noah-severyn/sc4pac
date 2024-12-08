@@ -1,0 +1,23 @@
+group: bsp
+name: john-king-books
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: BSP John King Books
+  description: |-
+    In 1971, John King established his first used bookstore in the Michigan Theatre building in downtown Detroit. Twelve years later and bursting at the seams with books, John bought the old Advance Glove factory at 901 W. Lafayette. Since then, John King Used & Rare Books has expanded to occupy all four floors plus the basement of the old factory (John makes his home in a corner of the 4th floor) as well as the Otis Elevator building next door! Today, John King Books is a Detroit landmark and is frequented by everyone from local sports stars and politicos to celebrities like Jay Leno and magicians Penn & Teller. This is a faithful re-creation of the actual building: the only liberties taken have been with the lot design.
+    
+    The following lots are included: a ploppable landmark, a ploppable functional CS$, a growable CS$ building, and a gGrowable I-M building (will grow as "Advance Glove Manufacturing" the original name of the building). All lots are 2x3.
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/17460-bsp-john-king-books/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/7a45ee86d380dc3c0ff2d6269d86633f-bsp_johnking1.jpg
+    - https://www.simtropolis.com/objects/screens/0014/7a45ee86d380dc3c0ff2d6269d86633f-bsp_johnking2.jpg
+assets:
+  - assetId: bsp-john-king-books
+
+---
+assetId: bsp-john-king-books
+version: "1.0"
+lastModified: "2006-12-14T23:01:23Z"
+url: https://community.simtropolis.com/files/file/17460-bsp-john-king-books/?do=download
