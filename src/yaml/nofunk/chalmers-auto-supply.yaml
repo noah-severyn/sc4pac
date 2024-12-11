@@ -1,0 +1,21 @@
+group: nofunk
+name: chalmers-auto-supply
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Chalmers Auto Supply
+  description: |-
+    Chalmers Auto Supply is a mid-sized factory that supplies various parts to your city's automobile manufacturers. This building is inspired by similar factories in Detroit, Michigan, but is fictional, and not part of the Barry Sanders Project (BSP). There are two versions available: a growable manufacturing industry and a ploppable manufacturing industry.
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/22339-chalmers-auto-supply/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e7848430a2c81cd611f39e9737561d38-chalmersauto1.jpg
+    - https://www.simtropolis.com/objects/screens/0025/e7848430a2c81cd611f39e9737561d38-chalmersauto2.jpg
+assets:
+  - assetId: nofunk-chalmers-auto-supply
+
+---
+assetId: nofunk-chalmers-auto-supply
+version: "1.0"
+lastModified: "2009-08-24T20:35:43Z"
+url: https://community.simtropolis.com/files/file/22339-chalmers-auto-supply/?do=download

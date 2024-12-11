@@ -1,0 +1,127 @@
+group: simfox
+name: thermofisher-scientific
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: High tech research facility
+  description: |-
+    This package contains one each 7x4 CO$$$, CO$$, and HIT$$$ growable lots. Two 7x4 ploppable lots providing CO$$$ and CO$$ jobs are also provided.
+  author: SimFox
+  website: https://community.simtropolis.com/files/file/25896-thermofisher-scientific-maxis-nite/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/9e354fa48044b8ca7d0644226f5935d8-main.jpg
+    - https://www.simtropolis.com/objects/screens/0018/9e354fa48044b8ca7d0644226f5935d8-mn.jpg
+dependencies:
+- simfox:thermofisher-scientific-model
+variants:
+- variant: { CAM: "no" }
+  - assetId: simfox-thermofisher-scientific-maxis-nite
+    exclude:
+    - \IHT$$$6_7x4_ThermoFisher Scientific.SC4Lot
+    - \SimFox_ThermoFisher_flags_MN.SC4Model
+    - \PLOP_7x4_ThermoFisher Science College.SC4Lot
+    - \PLOP_7x4_ThermoFisher Hospital.SC4Lot
+- variant: { CAM: "yes" }
+  assets:
+  - assetId: simfox-thermofisher-scientific-maxis-nite
+    exclude:
+    - \IHT$$$3_7x4_ThermoFisher Scientific.SC4Lot
+    - \SimFox_ThermoFisher_flags_MN.SC4Model
+    - \PLOP_7x4_ThermoFisher Science College.SC4Lot
+    - \PLOP_7x4_ThermoFisher Hospital.SC4Lot
+
+---
+group: simfox
+name: thermofisher-science-college
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: A higher educational research facility
+  description: |-
+    This package contains the ThermoFisher Science College, providing a higher education for 9000 students. The lot size is 7x4.
+
+    PLOP\_7x4\_ThermoFisher Hospital.SC4Lot
+
+    plop cost: 4 450$
+
+    capacity: 7 700 patients
+  author: SimFox
+  website: https://community.simtropolis.com/files/file/25896-thermofisher-scientific-maxis-nite/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/9e354fa48044b8ca7d0644226f5935d8-main.jpg
+    - https://www.simtropolis.com/objects/screens/0018/9e354fa48044b8ca7d0644226f5935d8-mn.jpg
+dependencies:
+- simfox:thermofisher-scientific-model
+assets:
+- assetId: https://community.simtropolis.com/files/file/25896-thermofisher-scientific-maxis-nite/
+  exclude:
+  - \SimFox_ThermoFisher_flags_MN.SC4Model
+  - \PLOP_7x4_ThermoFisher Science College.SC4Lot
+  - \PLOP_7x4_ThermoFisher Hospital.SC4Lot
+
+---
+group: simfox
+name: thermofisher-hospital
+version: "1.0"
+subfolder: 630-health
+info:
+  summary: A medical research facility
+  description: |-
+    This package contains the ThermoFisher Science Hospital, providing medical services for 7700 patients, with a radius of 72 tiles. The lot size is 7x4.
+
+    PLOP\_7x4\_ThermoFisher Hospital.SC4Lot
+
+    plop cost: 4 450$
+
+    capacity: 7 700 patients
+  author: SimFox
+  website: https://community.simtropolis.com/files/file/25896-thermofisher-scientific-maxis-nite/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/9e354fa48044b8ca7d0644226f5935d8-main.jpg
+    - https://www.simtropolis.com/objects/screens/0018/9e354fa48044b8ca7d0644226f5935d8-mn.jpg
+dependencies:
+- simfox:thermofisher-scientific-model
+assets:
+- assetId: https://community.simtropolis.com/files/file/25896-thermofisher-scientific-maxis-nite/
+  exclude:
+  - \SimFox_ThermoFisher_flags_MN.SC4Model
+  - \PLOP_7x4_ThermoFisher Science College.SC4Lot
+  - \PLOP_7x4_ThermoFisher Hospital.SC4Lot
+
+
+---
+group: simfox
+name: thermofisher-scientific-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Thermofisher Scientific model
+  description: |-
+    Model dependency for Simfox's Thermofisher Scientific.
+  author: SimFox
+  website: https://community.simtropolis.com/files/file/25896-thermofisher-scientific-maxis-nite/
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: simfox-thermofisher-scientific-maxis-nite
+    include:
+    - \\.SC4Model$
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: simfox-thermofisher-scientific-dark-nite
+    include:
+    - \\.SC4Model$
+
+
+---
+assetId: simfox-thermofisher-scientific-maxis-nite
+version: "1.0"
+lastModified: "2011-02-19T15:41:57Z"
+url: https://community.simtropolis.com/files/file/25896-thermofisher-scientific-maxis-nite/?do=download
+
+---
+assetId: simfox-thermofisher-scientific-dark-nite
+version: "1.0"
+lastModified:
+url: https://community.simtropolis.com/files/file/25895-thermofisher-scientific-darknite/?do=download

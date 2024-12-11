@@ -1,0 +1,56 @@
+# Other models included in this asset to add:
+# [ ] Odd Cafe Central  
+# [ ] Odd MekanoBrothers Industrial Manufacturing  
+# [ ] Odd Offices for rent in several variations  
+# [ ] Odd Warehouse Manufacturer Industrial Mechanical lots comes in 3 variations  
+# [ ] Oddbats Blyverkstaden in 2 variations  
+# [ ] Oddbats Bulkstorageunit tower in 2 variations
+# [X] Oddbats DDT & Sons in 3 variations
+# [X] Oddbats POWER Substation  
+# [ ] Oddbats Water Bulkstorageunit-B in 2 variations
+
+
+assetId: odd-from-sweden-previously-unreleased-bats
+version: "1.0"
+lastModified: "2010-07-13T12:26:51Z"
+url: https://community.simtropolis.com/files/file/24380-oddbats-previously-unreleased-bats-from-the-user-odd-from-sweden-with-full-permission/?do=download
+---
+
+group: odd-from-sweden
+name: ddt-and-sons
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: A small historical manufacturing building
+    full permission
+  description: |-
+    This building was previously unreleased by Odd From Sweden, but was fixed up and released by Glenni. This package contains seven lots, four industrial landmark, and three I-M stage 1. All are 1x2.
+  author: Odd from Sweden, Glenni
+  website: https://community.simtropolis.com/files/file/24380-oddbats-previously-unreleased-bats-from-the-user-odd-from-sweden-with-full-permission/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/66a803db52f36ef8c039fb959c599f78-oddbats-stuff-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/6c76f17d2b4077d0db089f8e362cc2a3-oddbats-stuff-22.jpg
+assets:
+  - assetId: odd-from-sweden-previously-unreleased-bats
+  include:
+  - /Oddbats-DDTandsons/
+
+---
+group: odd-from-sweden
+name: electric-substation
+version: "1.0"
+subfolder: 500-utilities
+info:
+  summary: A small historical power station
+    full permission
+  description: |-
+    This building was previously unreleased by Odd From Sweden, but was fixed up and released by Glenni. This package contains a small 1x1 electrical substation, providing 1500MW of power.
+  author: Odd from Sweden, Glenni
+  website: https://community.simtropolis.com/files/file/24380-oddbats-previously-unreleased-bats-from-the-user-odd-from-sweden-with-full-permission/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/66a803db52f36ef8c039fb959c599f78-oddbats-stuff-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/6c76f17d2b4077d0db089f8e362cc2a3-oddbats-stuff-22.jpg
+assets:
+  - assetId: odd-from-sweden-previously-unreleased-bats
+  include:
+  - /Oddbats-POWER-Substation/

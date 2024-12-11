@@ -1,0 +1,22 @@
+group: t-wrecks
+name: industrial-revolution-mod-expansion-blocker
+version: "1.0"
+subfolder: 900-overrides
+info:
+  summary: IRM Expansion Blocker
+  description: |-
+    This blocker file ensures that blocks IRM (non-W2W) lots from growing. If you don't use IRM W2W, this file is irrelevant for you. It is only needed to make a complete switch between W2W and non-W2W for those who would like to use both.
+       
+    Add this to your plugins folder if you play with the IRM lots, but want to have the option of switching back to IRM W2W lots by blocking all non-W2W stuff. When you want non-W2W IRM lots to grow again, simply move this package DAT file out of your plugins again.  
+  author: T Wrecks
+  website: https://community.simtropolis.com/files/file/31743-irm-expansion-blocker-v10/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/IRM_Expansion_Blocker.jpg.c4a154e540bce79b54d03c65d820fd45.jpg
+assets:
+  - assetId: t-wrecks-industrial-revolution-mod-expansion-blocker
+
+---
+assetId: t-wrecks-industrial-revolution-mod-expansion-blocker
+version: "1.0"
+lastModified: "2017-06-06T21:46:18Z"
+url: https://community.simtropolis.com/files/file/31743-irm-expansion-blocker-v10/?do=download

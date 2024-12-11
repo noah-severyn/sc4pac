@@ -1,0 +1,21 @@
+group: prepo
+name: semiintelligent-components
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: High tech industrial building
+  description: |-
+    High-tech industrial, stages 2 and 3, 80 workers. Three lots, 2x2, 2x3 and 3x2 size. This building is fictional, made to look quite "normal and dull" to suit with existing industrial buildings.
+  author: prepo
+  website: https://community.simtropolis.com/files/file/4029-semiintelligent-components/
+  images:
+    - https://www.simtropolis.com/objects/screens/0001/052a1056de2710ec35a66ab207ccf113-Semi-intelligent%20Components1.jpg
+    - https://www.simtropolis.com/objects/screens/0001/052a1056de2710ec35a66ab207ccf113-Semi-intelligent%20Components2.jpg
+assets:
+  - assetId: prepo-semiintelligent-components
+
+---
+assetId: prepo-semiintelligent-components
+version: "1.0"
+lastModified: "2004-08-08T07:12:45Z"
+url: https://community.simtropolis.com/files/file/4029-semiintelligent-components/?do=download

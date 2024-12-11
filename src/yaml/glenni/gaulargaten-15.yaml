@@ -1,0 +1,21 @@
+group: glenni
+name: gaulargaten-15
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: A small European W2W I-M building
+  description: |-
+    This a small industrial I-M building to fit your Wall to Wall building areas. It contains two 2x2 lots - one I-M growable and one landmark.
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/25451-gaulargaten-15-w2w-industrial/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/4c16cea1ae83dc72f14df11ef414178f-gaulargaten-1.jpg
+    - https://www.simtropolis.com/objects/screens/0009/4c16cea1ae83dc72f14df11ef414178f-gaulargaten-2.jpg
+assets:
+  - assetId: glenni-gaulargaten-15-w2w-industrial
+
+---
+assetId: glenni-gaulargaten-15-w2w-industrial
+version: "1.0"
+lastModified: "2010-12-12T07:13:54Z"
+url: https://community.simtropolis.com/files/file/25451-gaulargaten-15-w2w-industrial/?do=download

@@ -24,6 +24,9 @@ dependencies:
 - bsc:sg-models-im1
 - bsc:sg-models-im2
 - bsc:mega-props-misc-vol01
+- kellydale2003:linda-swampy-medical-centre-model
+- simfox:thermofisher-scientific-model
+- jasoncw:hammer-data-security-model
 #Plus these which are already required in shadowstrike:irm-cam
 #- "bsc:mega-props-jes-vol02"
 #- "bsc:mega-props-jes-vol03"
@@ -78,6 +81,67 @@ assets:
 - assetId: bsp:aluminum-architectural-metals-company
   include:
   - \\.SC4Model$
+- assetId: glenni:gaulargaten-15
+  include:
+  - /Glenni-Gaulargaten 15-0x5ad0e817_0x5a0ce4ab_0x30000.SC4Model
+- assetId: nofunk:chalmers-auto-supply
+  include:
+  - \\.SC4Model$
+-  include:
+  - \\.SC4Model$ assetId: dk1-small-industrial
+- assetId: odd-from-sweden:ddt-and-sons
+  include:
+  - \\.SC4Model$
+- assetId: vlasky:todds-packaging-plant
+  include:
+  - \\.SC4Model$
+- assetId: greatdane:skylimit-satelite-research
+  include:
+  - \\.SC4Model$
+- assetId: prepo:semiintelligent-components
+  include:
+  - \\.SC4Model$
+
+
+
+https://github.com/memo33/sc4pac/blob/242da8c8a2b73dd203ab61cdc334271dd541e26e/src/yaml/mattb325/industrial-collection.yaml#L13
+https://github.com/memo33/sc4pac/blob/242da8c8a2b73dd203ab61cdc334271dd541e26e/src/yaml/mattb325/industrial-collection.yaml#L474
+
+https://community.simtropolis.com/files/file/27208-nybt-abbt-manhattanville-project-1st-pack/
+https://community.simtropolis.com/files/file/27210-nybt-abbt-manhattanville-project-2nd-pack/
+https://community.simtropolis.com/files/file/28410-nybt-abbt-manhattanville-project-3rd-pack/
+https://community.simtropolis.com/files/file/27209-nybt-abbt-the-studebaker-building/
+
+https://community.simtropolis.com/files/file/31743-irm-expansion-blocker-v10/
+
+
+http://www.simcityplaza.de/index.php/whi-gebaeude/industrie?download=186:sfbt-hochenthalpie-windkanal-von-mathe-man
+http://www.simcityplaza.de/index.php/whi-gebaeude/industrie?download=538:sfbt-h2o-chemie-von-mathe-man&start=10
+http://www.simcityplaza.de/index.php/whi-gebaeude/industrie?download=184:sfbt-maschinenbau-klemmt-&-soehne-von-mathe-man
+
+
+
+
+https://community.simtropolis.com/files/file/28181-lavaughn-biotech/
+https://community.simtropolis.com/files/file/21844-ouellette-electronics/
+
+https://github.com/memo33/sc4pac/blob/242da8c8a2b73dd203ab61cdc334271dd541e26e/src/yaml/mattb325/industrial-collection.yaml#L146
+https://github.com/memo33/sc4pac/blob/242da8c8a2b73dd203ab61cdc334271dd541e26e/src/yaml/mattb325/industrial-collection.yaml#L271
+https://community.simtropolis.com/files/file/20277-bakery/
+https://community.simtropolis.com/files/file/20480-effectimed/
+https://community.simtropolis.com/files/file/20152-ohm-resistors/
+https://community.simtropolis.com/files/file/20173-nova-energetics/
+https://community.simtropolis.com/files/file/20604-quetz-isoprenes-co/
+https://community.simtropolis.com/files/file/27035-dk1-peterson-tool/
+
+
+
+
+
+
+
+
+
 
 
 
@@ -105,37 +169,3 @@ version: "1.1"
 lastModified: "2023-12-10T23:46Z"
 
 
-https://community.simtropolis.com/files/file/25451-gaulargaten-15-w2w-industrial/
-https://community.simtropolis.com/files/file/22339-chalmers-auto-supply/
-https://community.simtropolis.com/files/file/20361-dk1-small-industrial/
-https://github.com/memo33/sc4pac/blob/242da8c8a2b73dd203ab61cdc334271dd541e26e/src/yaml/mattb325/industrial-collection.yaml#L13
-
-
-https://github.com/memo33/sc4pac/blob/242da8c8a2b73dd203ab61cdc334271dd541e26e/src/yaml/mattb325/industrial-collection.yaml#L474
-https://community.simtropolis.com/files/file/24380-oddbats-previously-unreleased-bats-from-the-user-odd-from-sweden-with-full-permission/
-https://community.simtropolis.com/files/file/28537-todds-packaging-plant/
-https://community.simtropolis.com/files/file/27208-nybt-abbt-manhattanville-project-1st-pack/
-https://community.simtropolis.com/files/file/27210-nybt-abbt-manhattanville-project-2nd-pack/
-https://community.simtropolis.com/files/file/28410-nybt-abbt-manhattanville-project-3rd-pack/
-https://community.simtropolis.com/files/file/27209-nybt-abbt-the-studebaker-building/
-https://community.simtropolis.com/files/file/31743-irm-expansion-blocker-v10/
-http://www.simcityplaza.de/index.php/whi-gebaeude/industrie?download=186:sfbt-hochenthalpie-windkanal-von-mathe-man
-http://www.simcityplaza.de/index.php/whi-gebaeude/industrie?download=538:sfbt-h2o-chemie-von-mathe-man&start=10
-http://www.simcityplaza.de/index.php/whi-gebaeude/industrie?download=184:sfbt-maschinenbau-klemmt-&-soehne-von-mathe-man
-https://community.simtropolis.com/files/file/2636-skylimit-satelite-research/
-https://community.simtropolis.com/files/file/4029-semiintelligent-components/
-
-https://community.simtropolis.com/files/file/27565-linda-swampy-medical-centre/
-https://community.simtropolis.com/files/file/25895-thermofisher-scientific-darknite/
-https://community.simtropolis.com/files/file/28714-hammer-data-security/
-https://community.simtropolis.com/files/file/28181-lavaughn-biotech/
-https://community.simtropolis.com/files/file/21844-ouellette-electronics/
-
-https://github.com/memo33/sc4pac/blob/242da8c8a2b73dd203ab61cdc334271dd541e26e/src/yaml/mattb325/industrial-collection.yaml#L146
-https://github.com/memo33/sc4pac/blob/242da8c8a2b73dd203ab61cdc334271dd541e26e/src/yaml/mattb325/industrial-collection.yaml#L271
-https://community.simtropolis.com/files/file/20277-bakery/
-https://community.simtropolis.com/files/file/20480-effectimed/
-https://community.simtropolis.com/files/file/20152-ohm-resistors/
-https://community.simtropolis.com/files/file/20173-nova-energetics/
-https://community.simtropolis.com/files/file/20604-quetz-isoprenes-co/
-https://community.simtropolis.com/files/file/27035-dk1-peterson-tool/
