@@ -1,0 +1,23 @@
+group: hund88
+name: bakery
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: A small industrial bakery
+  description: |-
+    Everyone needs the daily bread. This is where they make it. A bakery is the basic industry for all towns.
+
+    Middle and high density zoning. I-M$$. 5 Different lots.
+  author: HunD88
+  website: https://community.simtropolis.com/files/file/20277-bakery/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/a314321104f2e8ee2ac605c881bc5b2c-Screen1.JPG
+    - https://www.simtropolis.com/objects/screens/0018/a314321104f2e8ee2ac605c881bc5b2c-Screen2.JPG
+assets:
+  - assetId: hund88-bakery
+
+---
+assetId: hund88-bakery
+version: "1.0"
+lastModified: "2008-08-26T10:30:09Z"
+url: https://community.simtropolis.com/files/file/20277-bakery/?do=download

@@ -1,0 +1,21 @@
+group: hund88
+name: ohm-resistors
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: A high tech factory
+  description: |-
+    This high-tech factory makes all types of resistors from microscopic to room-sized. 5 I-HT lots are included, growing from high density zoning.
+  author: HunD88
+  website: https://community.simtropolis.com/files/file/20152-ohm-resistors/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/da59bef90c5b413a868dc3640014e1fe-Scr3.JPG
+    - https://www.simtropolis.com/objects/screens/0024/da59bef90c5b413a868dc3640014e1fe-Scr2.JPG
+assets:
+  - assetId: hund88-ohm-resistors
+
+---
+assetId: hund88-ohm-resistors
+version: "1.0"
+lastModified: "2008-07-30T17:07:44Z"
+url: https://community.simtropolis.com/files/file/20152-ohm-resistors/?do=download

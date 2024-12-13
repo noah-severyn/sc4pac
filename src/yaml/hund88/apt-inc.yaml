@@ -1,0 +1,21 @@
+group: hund88
+name: apt-inc
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Small PVC pipe manufacturing facility
+  description: |-
+    Aroplast inc. is a small industrial company manufacturing PVC pipes of all kinds. Includes two growable, high density lots. 2x3 and 3x3.
+  author: HunD88
+  website: https://community.simtropolis.com/files/file/21381-apt-inc/
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b3a25ec9c0804face9078dbe2b4b0f06-scrn%201.jpg
+    - https://www.simtropolis.com/objects/screens/0020/b3a25ec9c0804face9078dbe2b4b0f06-scrn%202.jpg
+assets:
+  - assetId: hund88-apt-inc
+
+---
+assetId: hund88-apt-inc
+version: "1.0"
+lastModified: "2009-03-21T08:07:59Z"
+url: https://community.simtropolis.com/files/file/21381-apt-inc/?do=download

@@ -1,0 +1,21 @@
+group: hund88
+name: effectimed
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: A small medical manufacturing facility
+  description: |-
+    EffectiMed is a fictional small manufactory of laboratory accessories & Medical equipments. Five different I-HT high density growable lots are included.
+  author: HunD88
+  website: https://community.simtropolis.com/files/file/20480-effectimed/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/6003a4f03a9724a819432db2c3135600-Scr1.JPG
+    - https://www.simtropolis.com/objects/screens/0011/6003a4f03a9724a819432db2c3135600-Scr2.JPG
+assets:
+  - assetId: hund88-effectimed
+
+---
+assetId: hund88-effectimed
+version: "1.0"
+lastModified: "2008-10-02T05:17:22Z"
+url: https://community.simtropolis.com/files/file/20480-effectimed/?do=download

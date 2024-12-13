@@ -1,0 +1,23 @@
+group: hund88
+name: bauxim-al-co
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Aluminum smelting facility
+  description: |-
+    Bauxim Aluminum is a large aluminum smelting enterprise, supplying other industries with aluminum. The long building contains hundreds of electric smelters, which refine the molten "alum earth" trough of electrolysis. In the process and enormous amount - 150000 amperes - of current is used.
+
+    Includes three I-M lots: 4x5, 4x6, and 5x6.
+  author: HunD88
+  website: https://community.simtropolis.com/files/file/22686-bauxim-al-co/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/eacda0332069e2b04a5b5e75ca3a5f30-Screenshot3.jpg
+    - https://www.simtropolis.com/objects/screens/0026/eacda0332069e2b04a5b5e75ca3a5f30-Screenshot2.jpg
+assets:
+  - assetId: hund88-bauxim-al-co
+
+---
+assetId: hund88-bauxim-al-co
+version: "1.0"
+lastModified: "2009-10-17T16:37:41Z"
+url: https://community.simtropolis.com/files/file/22686-bauxim-al-co/?do=download

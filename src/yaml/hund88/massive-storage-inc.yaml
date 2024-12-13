@@ -1,0 +1,20 @@
+group: hund88
+name: massive-storage-inc
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: A large industrial warehouse
+  description: |-
+    Massive storage Inc. is a large warehouse, which helps nearby industries to store and distribute their product or raw materials. It employs 168 workers. It grows on high density industrial zones. 5 lots are included sized 3x3, 3x4, and 4x4.
+  author: HunD88
+  website: https://community.simtropolis.com/files/file/20133-massive-storage-inc/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/9476e37583215010115256bda2e77f25-asf.JPG
+assets:
+  - assetId: hund88-massive-storage-inc
+
+---
+assetId: hund88-massive-storage-inc
+version: "1.0"
+lastModified: "2008-07-27T10:56:14Z"
+url: https://community.simtropolis.com/files/file/20133-massive-storage-inc/?do=download
