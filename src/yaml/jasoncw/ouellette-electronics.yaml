@@ -1,0 +1,23 @@
+group: jasoncw
+name: ouellette-electronics
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Ouellette Electronics
+  description: |-
+    Ouellette Electronics focuses on the design and manufacture of cutting edge electronics, with its dedicated staff developing some of the world's most advanced products. At Ouellette Electronics, even the janitorial staff have PhDs.
+
+    An I-HT (High Tech Industrial/I§§§) growable and ploppable are included.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/21844-ouellette-electronics/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/41422a6106de550e66bc2dd73144e623-1.jpg
+    - https://www.simtropolis.com/objects/screens/0008/41422a6106de550e66bc2dd73144e623-2.jpg
+assets:
+  - assetId: jasoncw-ouellette-electronics
+
+---
+assetId: jasoncw-ouellette-electronics
+version: "1.0"
+lastModified: "2009-06-10T22:16:52Z"
+url: https://community.simtropolis.com/files/file/21844-ouellette-electronics/?do=download

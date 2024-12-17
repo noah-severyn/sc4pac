@@ -15,6 +15,11 @@ info:
   website: "https://community.simtropolis.com/files/file/35792-irm-expansions-and-addons-cam-edition/"
 dependencies:
 - shadowstrike:industrial-revolution-mod-cam
+#P lus these which are already required in shadowstrike:irm-cam
+#- bsc:mega-props-jes-vol02
+#- bsc:mega-props-jes-vol03
+#- bsc:mega-props-jes-vol05
+#- bsc:mega-props-jes-vol08
 - bsc:mega-props-jes-vol06
 - bsc:mega-props-jmyers-common-props
 - bsc:mega-props-gascooker-vol02
@@ -27,11 +32,9 @@ dependencies:
 - kellydale2003:linda-swampy-medical-centre-model
 - simfox:thermofisher-scientific-model
 - jasoncw:hammer-data-security-model
-#Plus these which are already required in shadowstrike:irm-cam
-#- "bsc:mega-props-jes-vol02"
-#- "bsc:mega-props-jes-vol03"
-#- "bsc:mega-props-jes-vol05"
-#- "bsc:mega-props-jes-vol08"
+- jasoncw:lavaugn-biotech-model
+- nybt:abbt-manhattanville-project-1st-pack-models
+
 
 
 variants:
@@ -101,13 +104,37 @@ assets:
 - assetId: prepo:semiintelligent-components
   include:
   - \\.SC4Model$
+- assetId: jasoncw:ouellette-electronics
+  include:
+  - \\.SC4Model$
+- assetId: hund88:bakery
+  include:
+  - \\.SC4Model$
+- assetId: hund88:effectimed
+  include:
+  - \\.SC4Model$
+- assetId: hund88:ohm-resistors
+  include:
+  - \\.SC4Model$ 
+- assetId: hund88:nova-energetics
+  include:
+  - \\.SC4Model$ 
+- assetId: hund88:quetz-isoprenes-co
+  exclude:
+  - \\.SC4Lot$
+  - \\prop building-0x6534284a-0x937d900c-0x36199e9e.SC4Desc$
+- assetId: dk1:peterson-tool
+  include:
+  - \\.SC4Model$ 
 
 
 
 https://github.com/memo33/sc4pac/blob/242da8c8a2b73dd203ab61cdc334271dd541e26e/src/yaml/mattb325/industrial-collection.yaml#L13
 https://github.com/memo33/sc4pac/blob/242da8c8a2b73dd203ab61cdc334271dd541e26e/src/yaml/mattb325/industrial-collection.yaml#L474
+https://github.com/memo33/sc4pac/blob/242da8c8a2b73dd203ab61cdc334271dd541e26e/src/yaml/mattb325/industrial-collection.yaml#L146
+https://github.com/memo33/sc4pac/blob/242da8c8a2b73dd203ab61cdc334271dd541e26e/src/yaml/mattb325/industrial-collection.yaml#L271
 
-https://community.simtropolis.com/files/file/27208-nybt-abbt-manhattanville-project-1st-pack/
+
 https://community.simtropolis.com/files/file/27210-nybt-abbt-manhattanville-project-2nd-pack/
 https://community.simtropolis.com/files/file/28410-nybt-abbt-manhattanville-project-3rd-pack/
 https://community.simtropolis.com/files/file/27209-nybt-abbt-the-studebaker-building/
@@ -118,25 +145,6 @@ https://community.simtropolis.com/files/file/31743-irm-expansion-blocker-v10/
 http://www.simcityplaza.de/index.php/whi-gebaeude/industrie?download=186:sfbt-hochenthalpie-windkanal-von-mathe-man
 http://www.simcityplaza.de/index.php/whi-gebaeude/industrie?download=538:sfbt-h2o-chemie-von-mathe-man&start=10
 http://www.simcityplaza.de/index.php/whi-gebaeude/industrie?download=184:sfbt-maschinenbau-klemmt-&-soehne-von-mathe-man
-
-
-
-
-https://community.simtropolis.com/files/file/28181-lavaughn-biotech/
-https://community.simtropolis.com/files/file/21844-ouellette-electronics/
-
-https://github.com/memo33/sc4pac/blob/242da8c8a2b73dd203ab61cdc334271dd541e26e/src/yaml/mattb325/industrial-collection.yaml#L146
-https://github.com/memo33/sc4pac/blob/242da8c8a2b73dd203ab61cdc334271dd541e26e/src/yaml/mattb325/industrial-collection.yaml#L271
-https://community.simtropolis.com/files/file/20277-bakery/
-https://community.simtropolis.com/files/file/20480-effectimed/
-https://community.simtropolis.com/files/file/20152-ohm-resistors/
-https://community.simtropolis.com/files/file/20173-nova-energetics/
-https://community.simtropolis.com/files/file/20604-quetz-isoprenes-co/
-https://community.simtropolis.com/files/file/27035-dk1-peterson-tool/
-
-
-
-
 
 
 

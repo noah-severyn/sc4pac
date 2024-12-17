@@ -14,7 +14,7 @@ dependencies:
 - jasoncw:hammer-data-security-model
 
 
-
+---
 group: jasoncw
 name: hammer-data-security-model
 version: "1.0"

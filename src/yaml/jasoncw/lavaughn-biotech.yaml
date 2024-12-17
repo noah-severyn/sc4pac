@@ -1,0 +1,44 @@
+group: jasoncw
+name: lavaugn-biotech
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: A large high tech industrial building
+  description: |-
+    LaVaughn Biotech includes a 6x6 IHT$$$ ploppable and a 6x6 IHT$$$ growable lot.
+  author: Jasoncw, Girafe
+  website: https://community.simtropolis.com/files/file/28181-lavaughn-biotech/
+  images:
+  - https://www.simtropolis.com/objects/screens/monthly_2017_02/LaVaughn-Biotech-STEX-2.jpg.109b360fa7476c6e06a9c6bec5916828.jpg
+dependencies:
+- jasoncw:lavaugn-biotech-model
+
+
+---
+group: jasoncw
+name: lavaugn-biotech-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Model dependency for `pkg=jasoncw:lavaugn-biotech`
+  author: Jasoncw, Girafe
+  website: https://community.simtropolis.com/files/file/28181-lavaughn-biotech/
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: jasoncw-lavaugn-biotech-maxisnite
+- variant: { nightmode: standard }
+  assets:
+  - assetId: jasoncw-lavaugn-biotech-maxisnite-cam
+
+---
+assetId: jasoncw-lavaughn-biotech-maxisnite
+version: "1.0"
+lastModified: "2012-11-06T01:16:26Z"
+url: https://community.simtropolis.com/files/file/28181-lavaughn-biotech/?do=download&r=108332
+
+---
+assetId: jasoncw-lavaughn-biotech-darknite
+version: "1.0"
+lastModified: "2012-11-06T01:16:26Z"
+url: https://community.simtropolis.com/files/file/28181-lavaughn-biotech/?do=download&r=108333
