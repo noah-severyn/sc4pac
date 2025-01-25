@@ -4,8 +4,8 @@ This page details how to write, for an existing mod, custom metadata that is und
 The metadata is stored in [YAML](https://en.wikipedia.org/wiki/YAML) files which can be edited in any text editor
 and consists of *assets* and *packages*, as defined below.
 
-?> An interactive editor for creating metadata files from scratch is available online:
-   [YAML editor for sc4pac](https://yamleditorforsc4pac.azurewebsites.net/).
+?> An interactive editor for creating and editing metadata files is available online:
+   [YAML editor for sc4pac](https://yamleditorforsc4pac.net/).
    The editor assists you in obtaining the required metadata and producing syntactically valid metadata files.
 
 ?> If you prefer to write the YAML files manually, you can use the [empty template](https://github.com/memo33/sc4pac-tools/blob/main/channel-testing/template-empty.yaml)
@@ -264,6 +264,7 @@ Details:
   - If the `include` filter is absent or empty, then by default all files with file type .dat/.sc4model/.sc4lot/.sc4desc/.sc4 are included.
   - If the `exclude` filter is absent or empty, then by default all file types other than .dat/.sc4model/.sc4lot/.sc4desc/.sc4 are excluded.
 - All extracted files without checksum must be DBPF files.
+- The `exclude` patterns are also matched against nested archives to allow skipping nested extraction.
 
 ?> If you anticipate file names changing with future updates of the original upload,
    consider using regular expressions to make the matching more generic, so that the `include` filter keeps working after the updates.
