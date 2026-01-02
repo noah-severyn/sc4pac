@@ -1,0 +1,77 @@
+assetId: "jondor-modular-rr-props"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=248:jondor-modular-rr-props-phase-1&catid=22"
+version: "1"
+lastModified: "2024-01-29T15:41:20Z"
+
+---
+group: "jondor"
+name: "modular-rr-props"
+version: "1"
+subfolder: "100-props-textures"
+info:
+  summary: "A set of orthogonal modular animated railroad crossing props"
+  website:
+  - "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/248-jondor-modular-rr-props-phase-1"
+  author: "Jondor"
+  description: |-
+    This download is only compatible with SimCity 4 'Rush Hour' or SimCity 4 Deluxe.
+
+    This mod is generally not compatible with other T21 mods that include rail crossings (except the NAM Core and components and vanilla Maxis T21s). A basic compatibility patch is included for use with plundere's Rail Catenary Mod.
+  images:
+  - "https://www.sc4evermore.com/images/jdownloads/screenshots/modular-rr.jpg"
+  - "https://www.sc4evermore.com/images/jdownloads/screenshots/modular-rr-action.jpg"
+assets:
+- assetId: "jondor-modular-rr-props"
+  include:
+  - "/@0^a_Required_Props/"
+
+# ---
+# group: "jondor"
+# name: "modular-rr-crossings"
+# version: "1"
+# subfolder: "700-transit"
+# info:
+#   summary: "A set of orthogonal modular animated railroad crossing props to spice up your SimCity 4 railway experience!"
+#   website:
+#   - "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/248-jondor-modular-rr-props-phase-1"
+#   author: "Jondor"
+#   description: |-
+#     Both RHD and LHD T21s are provided, along with a compatibility file for the Rail Catenary Mod and the necessary path files to activate the crossing animations on OWR and RHW based networks.
+
+#     As with all T21 mods, you must redraw the affected tiles for the game to change the props. In addition, if you find that the animations are not working on OWR or RHW crossings, you may need to bulldoze and redraw the crossing to force the game to update the paths. When driving a train in UDI mode, a graphical glitch may occur in which the crossing arms are drawn in both the vertical rest position and animating closed. This is an unavoidable, but harmless graphic bug and affects the Maxis crossing gates as well.
+
+#     This download is only compatible with SimCity 4 'Rush Hour' or SimCity 4 Deluxe.
+
+#     This mod is generally not compatible with other T21 mods that include rail crossings (except the NAM Core and components and vanilla Maxis T21s). A basic compatibility patch is included for use with plundere's Rail Catenary Mod.
+#   images:
+#   - "https://www.sc4evermore.com/images/jdownloads/screenshots/modular-rr.jpg"
+#   - "https://www.sc4evermore.com/images/jdownloads/screenshots/modular-rr-action.jpg"
+#   - "https://www.sc4devotion.com/forums/proxy.php?request=http%3A%2F%2Fwww.thedwarfers.net%2Fotherstuff%2Frandom%2Fsc4%2Frr_crossings%2FAus_Alt.jpg&hash=c44f73f825c1125040b64747be825fbb10921adc"
+#   - "https://www.sc4devotion.com/forums/proxy.php?request=http%3A%2F%2Fwww.thedwarfers.net%2Fotherstuff%2Frandom%2Fsc4%2Frr_crossings%2FCan_Alt.jpg&hash=7a371df01e551ab273f49bae01ceab733d9e1fdd"
+# dependencies:
+# - jondor:modular-rr-props
+# assets:
+# - assetId: "jondor-modular-rr-props"
+#   include:
+#   - "/@1^T21_Cancellation/"
+#   withConditions:
+#   - ifVariant: { driveside: "left" }
+#     include:
+#     - "/@2-LHD/"
+#   - ifVariant: { driveside: "right" }
+#     include:
+#     - "/@1=RHD/"
+#   - ifVariant: { jondor:modular-rr-crossings:catenary: "yes" }
+#     include:
+#     - "/@2!a_Catenary_Mod_Cancellation/"
+#   - ifVariant: { jondor:modular-rr-crossings:catenary: "no" }
+#     include: []
+#   - ifVariant: { jondor:modular-rr-crossings:t21: "by-zone" }
+#     include:
+#     - "/@2!a_Catenary_Mod_Cancellation/"
+#   - ifVariant: { jondor:modular-rr-crossings:t21: "by-wealth" }
+#     include:
+#     - "/@2!a_Catenary_Mod_Cancellation/"
+# variants:
+# - variant: { driveside: "left" }
+
